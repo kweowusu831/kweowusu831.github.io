@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header.intro {
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.intro-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.intro-text {
+    flex: 1;
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+}
+.intro-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #FFC107;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

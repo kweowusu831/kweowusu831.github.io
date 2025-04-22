@@ -1,0 +1,115 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.Introduction {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.Introduction p {
+    margin: 0;
+}
+
+
+.featured-albums {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.featured-albums th, .featured-albums td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.featured-albums th {
+    background-color: #f2f2f2;
+}
+
+.featured-albums img {
+    width: 100px;
+    height: auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+tr:nth-child(1) td {
+    background-color: #ffebcd; 
+}
+
+tr:nth-child(2) td {
+    background-color: #e6e6fa; 
+}
+
+tr:nth-child(3) td {
+    background-color: #f0fff0; 
+}
+
+tr:nth-child(4) td {
+    background-color: #f5f5dc; 
+}
+
+tr:nth-child(5) td {
+    background-color: #ffe4e1; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

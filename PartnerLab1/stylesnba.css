@@ -1,0 +1,158 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #1d428a, #c8102e);
+    margin: 10px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: #072fd0;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 4px solid #c8102e;
+}
+
+main {
+    width: 85%;
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    border: 2px solid #c8102e;
+    color: #333;
+}
+
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 6px solid #c8102e;
+    border-top: 4px solid #1d428a;
+}
+
+h2 {
+    color: #c8102e;
+    border-left: 5px solid #c8102e;
+    padding-left: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+img {
+    display: inline-block;
+    max-width: 400px;
+    height: 350px;
+    margin: 15px auto;
+}
+
+a {
+    color: #1d428a;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c8102e;
+}
+
+.intro {
+    text-align: center;
+}
+
+.player-jerseys {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 20px;
+}
+
+.player {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    border: 3px solid #1d428a;
+}
+
+.player img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.player span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c8102e;
+    margin-top: 10px;
+}
+
+.player-shoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.shoe {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+    min-width: 220px;
+    border: 2px solid #1d428a;
+}
+
+.shoe img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.shoe span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c8102e;
+    margin-top: 10px;
+}
+
+.shoe p {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+a {
+    color: #1d428a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c8102e;
+}
+
+

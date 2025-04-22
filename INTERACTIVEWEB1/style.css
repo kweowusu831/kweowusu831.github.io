@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: black;
+}
+.description p {
+    font-size: 18px;
+}
+section {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"], select {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#todoList {
+    margin-top: 10px;
+}

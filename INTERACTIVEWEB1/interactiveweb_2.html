@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create your own website!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="greeting">Hello User!</h1>
+        <section class="description">
+            <p id="message">Welcome to the webpage where new coders turn their dreams into <strong>reality.</strong>
+            This was created to enable its users to gain a preview of the amazing world of coding. Thank you for joining and we cannot wait for you to see the power of code!</p>
+        </section>
+    </header>
+    <section>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="customMessage">Enter your message:</label>
+        <input type="text" id="customMessage" name="customMessage"><br>
+
+        <label for="bgColor">Choose background color:</label>
+        <select id="bgColor" name="bgColor">
+            <option value="white">White</option>
+            <option value="lightblue">Light Blue</option>
+            <option value="lightgreen">Light Green</option>
+            <option value="lightyellow">Light Yellow</option>
+            <option value="pink">Pink</option>
+            <option value="turquoise">Turquoise</option>
+            <option value="Gold">Gold</option>
+        </select><br>
+        <button onclick="applyChanges()">Submit</button>
+    </section>
+    <section>
+        <h2>To Do List</h2>
+        <label for="todoItem">Add a To Do item:</label>
+        <input type="text" id="todoItem" name="todoItem">
+        <button onclick="addToDo()">Add</button>
+        <ol id="todoList"></ol>
+    </section>
+</body>
+</html>
